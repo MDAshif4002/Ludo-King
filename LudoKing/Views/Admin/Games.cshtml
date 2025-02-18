@@ -1,0 +1,62 @@
+﻿@model IEnumerable<LudoKing.Models.game>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_AdminLayout";
+    ViewBag.title = "Dashboard | Games";
+}
+
+
+
+<div class="container-fluid my-5">
+    <h2 class="text-center mb-4">Games</h2>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="table-responsive">
+                <table class="table table-striped text-center">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>ID</th>
+                            <th>Game Type</th>
+                            <th>Amount</th>
+                            <th>Player 1</th>
+                            <th>Player 2</th>
+                            <th>Room Code</th>
+                            <th>User Result</th>
+                            <th>Result Screenshot</th>
+                            <th>Final Result</th>
+                            <th>Date & Time</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            int sr = 1;
+                        }
+                        @foreach (var data in Model)
+                        {
+                            <tr>
+                                <td>@sr</td>
+                                <td>@data.gametype</td>
+                                <td>@data.amount</td>
+                                <td>@data.player1</td>
+                                <td>@data.player2</td>
+                                <td>@data.roomcode</td>
+                                <td>@data.userresult</td>
+                                <td><img src="~/game/@data.resultscreenshot" height="100px" alt="Alternate Text" /></td>
+                                <td>@data.finalresult</td>
+                                <td>@data.datetime</td>
+                                <td>
+                                    <a class="btn btn-light rounded-circle text-danger" asp-action="DeleteGame" asp-route-id="@data.id"><span class="menu-icon fas fa-trash"></span></a>
+                                    <a class="btn btn-light rounded-circle text-warning" asp-action="EditGame" asp-route-id="@data.id"><span class="menu-icon fas fa-edit"></span></a>
+                                </td>
+                            </tr>
+                            sr++;
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

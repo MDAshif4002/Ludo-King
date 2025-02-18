@@ -1,0 +1,86 @@
+﻿@model IEnumerable<LudoKing.Models.slider>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_AdminLayout";
+    ViewBag.title = "Dashboard | Slider";
+}
+
+
+
+
+<div class="container-fluid my-5">
+    <h2 class="text-center mb-4">Sliders</h2>
+
+    <br/>
+<a class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#addslider" >Add New Slider</a>
+<br/><br/>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="table-responsive">
+                <table class="table table-striped text-center">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>ID</th>
+                            <th>Picture</th>
+                            <th>Link</th>
+                            <th>Status</th>
+                            <th>Date & Time</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            int sr = 1;
+                        }
+                        @foreach (var data in Model)
+                        {
+                            <tr>
+                                <td>@sr</td>
+                                <td><img src="~/slider/@data.pic" style="height:100px;" /></td>
+                                <td>@data.link</td>
+                                <td>@data.status</td>
+                                <td>@data.datetime</td>
+                                <td>
+                                    <a class="btn btn-light rounded-circle text-danger" asp-action="DeleteSlider" asp-route-id="@data.id"><span class="menu-icon fas fa-trash"></span></a>
+                                    <a class="btn btn-light rounded-circle text-warning" asp-action="EditSlider" asp-route-id="@data.id"><span class="menu-icon fas fa-edit"></span></a>
+                                </td>
+                            </tr>
+                            sr++;
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="modal fade" id="addslider">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h4 class="modal-title"> Add New Slider </h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+                <form method="post" asp-action="AddSlider" enctype="multipart/form-data">
+                    Upload Slider Image
+                    <input type="file" name="pic" required class="form-control" />
+                    Link 
+                    <input type="text" name="link" class="form-control" />
+                    <br />
+                    <button class="btn btn-warning">Upload</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>

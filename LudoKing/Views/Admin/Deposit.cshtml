@@ -1,0 +1,59 @@
+﻿@model IEnumerable<LudoKing.Models.deposited>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_AdminLayout";
+    ViewBag.title = "Dashboard | Deposit";
+}
+
+
+<div class="container-fluid my-5">
+    <h2 class="text-center mb-4">Deposit</h2>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="table-responsive">
+                <table class="table table-striped text-center">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Mobile Number</th>
+                            <th>Username</th>
+                            <th>Status</th>
+                            <th>Mode</th>
+                            <th>Txn ID</th>
+                            <th>Screenshot</th>
+                            <th>Date & Time</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            int sr = 1;
+                        }
+                        @foreach (var data in Model)
+                        {
+                            <tr>
+                                <td>@sr</td>
+                                <td>@data.name</td>
+                                <td>@data.mobile</td>
+                                <td>@data.username</td>
+                                <td>@data.status</td>
+                                <td>@data.mode</td>
+                                <td>@data.transactionid</td>
+                                <td><img src="~/deposit/@data.screenshot" height="100px" alt="Alternate Text" /></td>
+                                <td>@data.datetime</td>
+                                <td>
+                                    <a class="btn btn-light rounded-circle text-danger" asp-action="DeleteDeposit" asp-route-id="@data.id"><span class="menu-icon fas fa-trash"></span></a>
+                                    <a class="btn btn-light rounded-circle text-warning" asp-action="EditDeposit" asp-route-id="@data.id"><span class="menu-icon fas fa-edit"></span></a>
+                                </td>
+                            </tr>
+                            sr++;
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,64 @@
+﻿@model IEnumerable<LudoKing.Models.wallet>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_AdminLayout";
+    ViewBag.title = "Dashboard | Wallet";
+}
+
+
+
+
+
+<div class="container-fluid my-5">
+    <h2 class="text-center mb-4">Wallet</h2>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="table-responsive">
+                <table class="table table-striped text-center">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>ID</th>
+                            <th>Type</th>
+                            <th>Remark</th>
+                            <th>Amount</th>
+                            <th>Date & Time</th>
+                            <th>Status</th>
+                            <th>User ID</th>
+                            <th>Txn ID</th>
+                            <th>Screenshot</th>
+                            <th>Payment Refrence Number</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            int sr = 1;
+                        }
+                        @foreach (var data in Model)
+                        {
+                            <tr>
+                                <td>@sr</td>
+                                <td>@data.type</td>
+                                <td>@data.remark</td>
+                                <td>@data.amount</td>
+                                <td>@data.datetime</td>
+                                <td>@data.status</td>
+                                <td>@data.userid</td>
+                                <td>@data.txnid</td>
+                                <td><img src="~/wallet/@data.screenshot" height="100px" /></td>
+                                <td>@data.paymentrefno</td>
+                                <td>
+                                    <a class="btn btn-light rounded-circle text-danger" asp-action="DeleteWallet" asp-route-id="@data.id"><span class="menu-icon fas fa-trash"></span></a>
+                                    <a class="btn btn-light rounded-circle text-warning" asp-action="EditWallet" asp-route-id="@data.id"><span class="menu-icon fas fa-edit"></span></a>
+                                </td>
+                            </tr>
+                            sr++;
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

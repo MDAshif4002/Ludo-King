@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ASP.NET\\LudoKing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E9BB85-C161-4A95-8510-D13A0E4222ED}|LudoKing\\LudoKing.csproj|d:\\asp.net\\ludoking\\ludoking\\controllers\\ludokingapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9E9BB85-C161-4A95-8510-D13A0E4222ED}|LudoKing\\LudoKing.csproj|solutionrelative:ludoking\\controllers\\ludokingapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E9BB85-C161-4A95-8510-D13A0E4222ED}|LudoKing\\LudoKing.csproj|d:\\asp.net\\ludoking\\ludoking\\views\\admin\\wallet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9E9BB85-C161-4A95-8510-D13A0E4222ED}|LudoKing\\LudoKing.csproj|solutionrelative:ludoking\\views\\admin\\wallet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Wallet.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET\\LudoKing\\LudoKing\\Views\\Admin\\Wallet.cshtml",
+              "RelativeDocumentMoniker": "LudoKing\\Views\\Admin\\Wallet.cshtml",
+              "ToolTip": "D:\\ASP.NET\\LudoKing\\LudoKing\\Views\\Admin\\Wallet.cshtml",
+              "RelativeToolTip": "LudoKing\\Views\\Admin\\Wallet.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAC8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-17T05:36:25.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LudoKingAPIController.cs",
+              "DocumentMoniker": "D:\\ASP.NET\\LudoKing\\LudoKing\\Controllers\\LudoKingAPIController.cs",
+              "RelativeDocumentMoniker": "LudoKing\\Controllers\\LudoKingAPIController.cs",
+              "ToolTip": "D:\\ASP.NET\\LudoKing\\LudoKing\\Controllers\\LudoKingAPIController.cs",
+              "RelativeToolTip": "LudoKing\\Controllers\\LudoKingAPIController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPoCAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T06:30:48.923Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

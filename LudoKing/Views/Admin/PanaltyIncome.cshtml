@@ -1,0 +1,50 @@
+﻿@model IEnumerable<LudoKing.Models.panaltyincome>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_AdminLayout";
+}
+
+
+<div class="container-fluid my-5">
+    <h2 class="text-center mb-4">Panalty Income</h2>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="table-responsive">
+                <table class="table table-striped text-center">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Type</th>
+                            <th>Amount</th>
+                            <th>Date</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            int sr = 1;
+                        }
+                        @foreach (var data in Model)
+                        {
+                            <tr>
+                                <td>@sr</td>
+                                <td>@data.name</td>
+                                <td>@data.type</td>
+                                <td>@data.amount</td>
+                                <td>@data.date</td>
+                                <td>
+                                    <a class="btn btn-light rounded-circle text-danger" asp-action="DeletePanaltyIncome" asp-route-id="@data.id"><span class="menu-icon fas fa-trash"></span></a>
+                                    <a class="btn btn-light rounded-circle text-warning" asp-action="EditPanaltyIncome" asp-route-id="@data.id"><span class="menu-icon fas fa-edit"></span></a>
+                                </td>
+                            </tr>
+                            sr++;
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

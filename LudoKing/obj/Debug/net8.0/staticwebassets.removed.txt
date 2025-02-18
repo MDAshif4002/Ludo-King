@@ -1,0 +1,9 @@
+D:\ASP.NET\LudoKing\LudoKing\wwwroot\css
+D:\ASP.NET\LudoKing\LudoKing\wwwroot\static\demo\Kishi_Bashi_-_It_All_Began_With_a_Burst.mp3
+D:\ASP.NET\LudoKing\LudoKing\wwwroot\static\demo\Kishi_Bashi_-_It_All_Began_With_a_Burst.ogg
+D:\ASP.NET\LudoKing\LudoKing\wwwroot\static\demo\View_From_A_Blue_Moon_Trailer-1080p.mp4
+D:\ASP.NET\LudoKing\LudoKing\wwwroot\static\demo\View_From_A_Blue_Moon_Trailer-576p.mp4
+D:\ASP.NET\LudoKing\LudoKing\wwwroot\static\demo\View_From_A_Blue_Moon_Trailer-720p.mp4
+D:\ASP.NET\LudoKing\LudoKing\wwwroot\static\demo\View_From_A_Blue_Moon_Trailer-HD.en.vtt
+D:\ASP.NET\LudoKing\LudoKing\wwwroot\static\demo\View_From_A_Blue_Moon_Trailer-HD.fr.vtt
+D:\ASP.NET\LudoKing\LudoKing\wwwroot\static\demo\View_From_A_Blue_Moon_Trailer-HD.jpg

@@ -1,0 +1,2040 @@
+[
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "addappsetting",
+    "RelativePath": "api/LudoKingAPI/addappsetting",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "webappstatus",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "undermaintenancemsg",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "terms",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "gamerules",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "whatsapplink",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "instalink",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "telegramlink",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "addcontact",
+    "RelativePath": "api/LudoKingAPI/addcontact",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "mobile",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "message",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "datetime",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "adddeposit",
+    "RelativePath": "api/LudoKingAPI/adddeposit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "mobile",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "mode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "transactionid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "screenshot",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "datetime",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "addpaymenthistory",
+    "RelativePath": "api/LudoKingAPI/addpaymenthistory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "paymentid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "date",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "amount",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "paymentstatus",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "addplayer1",
+    "RelativePath": "api/LudoKingAPI/addplayer1",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "gametype",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "amount",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "player1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "player2",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "roomcode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userresult",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "resultscreenshot",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "finalresult",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "datetime",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "addplayer2",
+    "RelativePath": "api/LudoKingAPI/addplayer2",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "gametype",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "amount",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "player1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "player2",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "roomcode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userresult",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "resultscreenshot",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "finalresult",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "datetime",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "addroomcode",
+    "RelativePath": "api/LudoKingAPI/addroomcode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "gametype",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "amount",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "player1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "player2",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "roomcode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userresult",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "resultscreenshot",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "finalresult",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "datetime",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "addslider",
+    "RelativePath": "api/LudoKingAPI/addslider",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pic",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "link",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "datetime",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "addwallet",
+    "RelativePath": "api/LudoKingAPI/addwallet",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "type",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "remark",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "amount",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "datetime",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "txnid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "screenshot",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "paymentrefno",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "addwithdraw",
+    "RelativePath": "api/LudoKingAPI/addwithdraw",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "bank",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "accountholder",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ifsccode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "accountnumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "amount",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "screenshot",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "datetime",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "deleteappsetting",
+    "RelativePath": "api/LudoKingAPI/deleteappsetting/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "deletecontact",
+    "RelativePath": "api/LudoKingAPI/deletecontact/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "deletepaymenthistory",
+    "RelativePath": "api/LudoKingAPI/deletepaymenthistory/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "deleteplayer1",
+    "RelativePath": "api/LudoKingAPI/deleteplayer1/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "deleteplayer2",
+    "RelativePath": "api/LudoKingAPI/deleteplayer2/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "deleteroomcode",
+    "RelativePath": "api/LudoKingAPI/deleteroomcode/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "deleteslider",
+    "RelativePath": "api/LudoKingAPI/deleteslider/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "deletewallet",
+    "RelativePath": "api/LudoKingAPI/deletewallet/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "deletewithdraw",
+    "RelativePath": "api/LudoKingAPI/deletewithdraw/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "game",
+    "RelativePath": "api/LudoKingAPI/game",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "gametype",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "amount",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "player1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "player2",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "roomcode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userresult",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "resultscreenshot",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "finalresult",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "datetime",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "gamedelete",
+    "RelativePath": "api/LudoKingAPI/gamedelete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "gamedetail",
+    "RelativePath": "api/LudoKingAPI/gamedetail/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "gameid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "players",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "winmoney",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "winner",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "gameshow",
+    "RelativePath": "api/LudoKingAPI/gameshow",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "gameshow",
+    "RelativePath": "api/LudoKingAPI/gameshow/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "gameupdate",
+    "RelativePath": "api/LudoKingAPI/gameupdate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "gametype",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "amount",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "player1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "player2",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "roomcode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userresult",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "resultscreenshot",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "finalresult",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "datetime",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "Login",
+    "RelativePath": "api/LudoKingAPI/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mobile",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "newgame",
+    "RelativePath": "api/LudoKingAPI/newgame",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "gametype",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "amount",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "player1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "player2",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "roomcode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userresult",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "resultscreenshot",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "finalresult",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "datetime",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "registration",
+    "RelativePath": "api/LudoKingAPI/registration",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "mobile",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "otp",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "otpstatus",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "walletbalance",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "datetime",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "blockstatus",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "photo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "registrationdelete",
+    "RelativePath": "api/LudoKingAPI/registrationdelete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "registrationshow",
+    "RelativePath": "api/LudoKingAPI/registrationshow",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "registrationshow",
+    "RelativePath": "api/LudoKingAPI/registrationshow/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "registrationupdate",
+    "RelativePath": "api/LudoKingAPI/registrationupdate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "mobile",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "otp",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "otpstatus",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "walletbalance",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "datetime",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "blockstatus",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "photo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "resendotp",
+    "RelativePath": "api/LudoKingAPI/resendotp",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "mobile",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "otp",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "otpstatus",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "walletbalance",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "datetime",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "blockstatus",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "photo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "roomcode",
+    "RelativePath": "api/LudoKingAPI/roomcode",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "gametype",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "amount",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "player1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "player2",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "roomcode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userresult",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "resultscreenshot",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "finalresult",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "datetime",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "setimg",
+    "RelativePath": "api/LudoKingAPI/setimg",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "mobile",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "otp",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "otpstatus",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "walletbalance",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "datetime",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "blockstatus",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "photo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "showappsetting",
+    "RelativePath": "api/LudoKingAPI/showappsetting",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "showappsetting",
+    "RelativePath": "api/LudoKingAPI/showappsetting/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "showcontact",
+    "RelativePath": "api/LudoKingAPI/showcontact",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "showcontact",
+    "RelativePath": "api/LudoKingAPI/showcontact/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "showslider",
+    "RelativePath": "api/LudoKingAPI/showslider",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "showslider",
+    "RelativePath": "api/LudoKingAPI/showslider/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "showwallet",
+    "RelativePath": "api/LudoKingAPI/showwallet",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "showwallet",
+    "RelativePath": "api/LudoKingAPI/showwallet/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "submitresult",
+    "RelativePath": "api/LudoKingAPI/submitresult",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "gametype",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "amount",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "player1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "player2",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "roomcode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userresult",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "resultscreenshot",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "finalresult",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "datetime",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "updateappsetting",
+    "RelativePath": "api/LudoKingAPI/updateappsetting",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "webappstatus",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "undermaintenancemsg",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "terms",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "gamerules",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "whatsapplink",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "instalink",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "telegramlink",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "updatecontact",
+    "RelativePath": "api/LudoKingAPI/updatecontact",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "mobile",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "message",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "datetime",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "updateslider",
+    "RelativePath": "api/LudoKingAPI/updateslider",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pic",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "link",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "datetime",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "updatewallet",
+    "RelativePath": "api/LudoKingAPI/updatewallet",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "type",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "remark",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "amount",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "datetime",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "txnid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "screenshot",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "paymentrefno",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LudoKing.Controllers.LudoKingAPIController",
+    "Method": "verifyotp",
+    "RelativePath": "api/LudoKingAPI/verifyotp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mobile",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "otp",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

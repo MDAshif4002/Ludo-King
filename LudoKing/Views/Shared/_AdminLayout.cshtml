@@ -1,0 +1,336 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><!-- End Required meta tags -->
+    <!-- Begin SEO tag -->
+    <title>@ViewBag.title </title>
+    <meta property="og:title" content="Starter Template">
+    <meta name="author" content="Aif Siddiqui">
+    <meta property="og:locale" content="en_US">
+    <meta name="description" content="Responsive admin theme build on top of Bootstrap 4">
+    <meta property="og:description" content="Responsive admin theme build on top of Bootstrap 4">
+    <link rel="canonical" asp-action="index1">
+    <meta property="og:url" content="https://uselooper.com">
+    <meta property="og:site_name" content="Ludo King">
+
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <script type="application/ld+json">
+      {
+        "name": "Ludo King",
+        "description": "Responsive admin theme",
+        "author":
+        {
+          "@@type": "Person",
+          "name": "Aif Siddiqui"
+        },
+        "@@type": "WebSite",
+        "url": "",
+        "headline": "Starter Template",
+        "@@context": "http://schema.org"
+      }
+    </script><!-- End SEO tag -->
+    <!-- FAVICONS -->
+    <link rel="#" sizes="144x144" href="#">
+    <link rel="#" href="#">
+    <meta name="theme-color" content="#3063A0"><!-- End FAVICONS -->
+    <!-- GOOGLE FONT -->
+    <link href="~/css?family=Fira+Sans:400,500,600" rel="stylesheet"><!-- End GOOGLE FONT -->
+    <!-- BEGIN PLUGINS STYLES -->
+    <link rel="stylesheet" href="~/assets/vendor/open-iconic/font/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="~/assets/vendor/%40fortawesome/fontawesome-free/css/all.min.css"><!-- END PLUGINS STYLES -->
+    <!-- BEGIN THEME STYLES -->
+    <link rel="stylesheet" href="~/assets/stylesheets/theme.min.css" data-skin="default">
+    <link rel="stylesheet" href="~/assets/stylesheets/theme-dark.min.css" data-skin="dark">
+    <link rel="stylesheet" href="~/assets/stylesheets/custom.css">
+    <script>
+      var skin = localStorage.getItem('skin') || 'default';
+      var disabledSkinStylesheet = document.querySelector('link[data-skin]:not([data-skin="' + skin + '"])');
+      // Disable unused skin immediately
+      disabledSkinStylesheet.setAttribute('rel', '');
+      disabledSkinStylesheet.setAttribute('disabled', true);
+      // add loading class to html immediately
+      document.querySelector('html').classList.add('loading');
+    </script><!-- END THEME STYLES -->
+  </head>
+  <body>
+      <div class="container-fluid">
+    <!-- .app -->
+    <div class="app">
+      <!--[if lt IE 10]>
+        <div class="page-message" role="alert">You are using an <strong>outdated</strong> browser. Please <a class="alert-link" href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</div>
+      <![endif]-->
+      <div class="row">
+          <div class="col-sm-12">
+      <!-- .app-header -->
+      <header class="app-header app-header-dark">
+        <!-- .top-bar -->
+        <div class="top-bar">
+          <!-- .top-bar-brand -->
+          <div class="top-bar-brand">
+            <!-- toggle aside menu -->
+@*             <button class="hamburger hamburger-squeeze mr-2" type="button" data-toggle="aside-menu" aria-label="toggle aside menu"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button> <!-- /toggle aside menu -->
+ *@            <a asp-action="Index" class="d-flex align-items-center justify-content-center">Ludo King</a>
+          </div><!-- /.top-bar-brand -->
+          <!-- .top-bar-list -->
+          <div class="top-bar-list">
+            <!-- .top-bar-item -->
+            <div class="top-bar-item px-2 d-md-none d-lg-none d-xl-none">
+              <!-- toggle menu -->
+              <button class="hamburger hamburger-squeeze" type="button" data-toggle="aside" aria-label="toggle menu"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button> <!-- /toggle menu -->
+            </div><!-- /.top-bar-item -->
+            <!-- .top-bar-item -->
+            <div class="top-bar-item top-bar-item-full">
+              <!-- .top-bar-search -->
+              <form class="top-bar-search">
+                <!-- .input-group -->
+                <div class="input-group input-group-search dropdown">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><span class="oi oi-magnifying-glass"></span></span>
+                  </div><input type="text" class="form-control" data-toggle="dropdown" aria-label="Search" placeholder="Search"> <!-- .dropdown-menu -->
+                  <div class="dropdown-menu dropdown-menu-rich dropdown-menu-xl ml-n4 mw-100">
+                    <div class="dropdown-arrow ml-3"></div><!-- .dropdown-scroll -->
+                    <div class="dropdown-scroll perfect-scrollbar h-auto" style="max-height: 360px">
+                      <!-- .list-group -->
+                      <div class="list-group list-group-flush list-group-reflow mb-2">
+                        <h6 class="list-group-header d-flex justify-content-between">
+                          <span>Shortcut</span>
+                        </h6><!-- .list-group-item -->
+                        <div class="list-group-item py-2">
+                                                <a href="#" class="stretched-link"></a>
+                          <div class="tile tile-sm bg-muted">
+                            <i class="fas fa-user-plus"></i>
+                          </div>
+                          <div class="ml-2"> Create user </div>
+                        </div><!-- /.list-group-item -->
+                        <!-- .list-group-item -->
+                        <div class="list-group-item py-2">
+                                                <a href="#" class="stretched-link"></a>
+                          <div class="tile tile-sm bg-muted">
+                            <i class="fas fa-dollar-sign"></i>
+                          </div>
+                          <div class="ml-2"> Create invoice </div>
+                        </div><!-- /.list-group-item -->
+                        <h6 class="list-group-header d-flex justify-content-between mt-2">
+                                                <span>In projects</span> <a href="#" class="font-weight-normal">Show more</a>
+                        </h6><!-- .list-group-item -->
+                        <div class="list-group-item py-2">
+                                                <a href="#" class="stretched-link"><span class="sr-only">Go to search result</span></a>
+                          <div class="user-avatar user-avatar-sm bg-muted">
+                            <img src="assets/images/avatars/bootstrap.svg" alt="">
+                          </div>
+                          <div class="ml-2">
+                            <div class="mb-n1"> Bootstrap </div><small class="text-muted">Just now</small>
+                          </div>
+                        </div><!-- /.list-group-item -->
+                        <!-- .list-group-item -->
+                        <div class="list-group-item py-2">
+                                                <a href="#" class="stretched-link"><span class="sr-only">Go to search result</span></a>
+                          <div class="user-avatar user-avatar-sm bg-muted">
+                            <img src="assets/images/avatars/slack.svg" alt="">
+                          </div>
+                          <div class="ml-2">
+                            <div class="mb-n1"> Slack </div><small class="text-muted">Updated 25 minutes ago</small>
+                          </div>
+                        </div><!-- /.list-group-item -->
+                        <!-- /.list-group-item -->
+                        <h6 class="list-group-header d-flex justify-content-between mt-2">
+                                                <span>Another section</span> <a href="#" class="font-weight-normal">Show more</a>
+                        </h6><!-- .list-group-item -->
+                        <div class="list-group-item py-2">
+                                                <a href="#" class="stretched-link"><span class="sr-only">Go to search result</span></a>
+                          <div class="tile tile-sm bg-muted"> P </div>
+                          <div class="ml-2">
+                            <div class="mb-n1"> Product name </div>
+                          </div>
+                        </div><!-- /.list-group-item -->
+                      </div><!-- /.list-group -->
+                    </div><!-- /.dropdown-scroll -->
+                                    <a href="#" class="dropdown-footer">Show all results</a>
+                  </div><!-- /.dropdown-menu -->
+                </div><!-- /.input-group -->
+              </form><!-- /.top-bar-search -->
+            </div><!-- /.top-bar-item -->
+            <!-- .top-bar-item -->
+            <div class="top-bar-item top-bar-item-right px-0 d-none d-sm-flex">
+              <!-- .nav -->
+              <!-- .btn-account -->
+              <div class="dropdown d-none d-md-flex">
+                <button class="btn-account" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="user-avatar user-avatar-md"><img src="~/assets/images/avatars/profile.jpg" alt=""></span> <span class="account-summary pr-lg-4 d-none d-lg-block"><span class="account-name">Aif Siddiqui</span> <span class="account-description">Web Developer</span></span></button> <!-- .dropdown-menu -->
+                <div class="dropdown-menu">
+                  <div class="dropdown-arrow d-lg-none" x-arrow=""></div>
+                  <div class="dropdown-arrow ml-3 d-none d-lg-block"></div>
+                                <h6 class="dropdown-header d-none d-md-block d-lg-none"> Aif Siddiqui </h6><a class="dropdown-item" asp-action="UserProfile"><span class="dropdown-icon oi oi-person"></span> Profile</a> <a class="dropdown-item" asp-action=""><span class="dropdown-icon oi oi-account-logout"></span> Logout</a>
+                                <div class="dropdown-divider"></div><a class="dropdown-item" href="#">Help Center</a> <a class="dropdown-item" href="#">Ask Forum</a> <a class="dropdown-item" href="#">Keyboard Shortcuts</a>
+                </div><!-- /.dropdown-menu -->
+              </div><!-- /.btn-account -->
+            </div><!-- /.top-bar-item --> 
+          </div><!-- /.top-bar-list -->
+        </div><!-- /.top-bar -->
+      </header><!-- /.app-header -->
+      </div>
+     </div>
+      <div class="row">
+          <div class="col-sm-2">
+      <!-- .app-aside -->
+      <aside class="app-aside app-aside-expand-md app-aside-light">
+        <!-- .aside-content -->
+        <div class="aside-content">
+          <!-- .aside-header -->
+          <header class="aside-header d-block d-md-none">
+            <!-- .btn-account -->
+            <button class="btn-account" type="button" data-toggle="collapse" data-target="#dropdown-aside"><span class="user-avatar user-avatar-lg"><img src="~/assets/images/avatars/profile.jpg" alt=""></span> <span class="account-icon"><span class="fa fa-caret-down fa-lg"></span></span> <span class="account-summary"><span class="account-name">Aif Siddiqui</span> <span class="account-description">Web Developer</span></span></button> <!-- /.btn-account -->
+            <!-- .dropdown-aside -->
+            <div id="dropdown-aside" class="dropdown-aside collapse">
+              <!-- dropdown-items -->
+              <div class="pb-3">
+                            <a class="dropdown-item" asp-action="UserProfile"><span class="dropdown-icon oi oi-person"></span> Profile</a> <a class="dropdown-item" href="auth-signin-v1.html"><span class="dropdown-icon oi oi-account-logout"></span> Logout</a>
+                            <div class="dropdown-divider"></div><a class="dropdown-item" href="#">Help Center</a> <a class="dropdown-item" href="#">Ask Forum</a> <a class="dropdown-item" href="#">Keyboard Shortcuts</a>
+              </div><!-- /dropdown-items -->
+            </div><!-- /.dropdown-aside -->
+          </header><!-- /.aside-header -->
+          <!-- .aside-menu -->
+          <div class="aside-menu overflow-hidden">
+            <!-- .stacked-menu -->
+            <nav id="stacked-menu" class="stacked-menu">
+              <!-- .menu -->
+              <ul class="menu">
+                <!-- .menu-item -->
+                <li class="menu-item">
+                  <a asp-action="Index" class="menu-link"><span class="menu-icon fas fa-home"></span> <span class="menu-text">Dashboard</span></a>
+                </li><!-- /.menu-item -->
+               
+                 <li class="menu-item">
+                                <a asp-action="User" class="menu-link"><span class="menu-icon oi oi-person"></span> <span class="menu-text">Users</span></a>
+                            </li>
+                            <li class="menu-item">
+                                <a asp-action="Games" class="menu-link"><span class="menu-icon fas fa-dice"></span> <span class="menu-text">Games</span></a>
+                            </li>
+                            <li class="menu-item">
+                                <a asp-action="Wallet" class="menu-link">
+                                    <span class="menu-icon fas fa-arrow-down"></span> <span class="menu-text">Wallet</span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a asp-action="AdminIncome" class="menu-link">
+                                    <span class="menu-icon fas fa-money-bill-wave"></span>  <span class="menu-text">Admin Income</span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                            <a asp-action="PanaltyIncome" class="menu-link">
+                                                <span class="menu-icon fas fa-exclamation-triangle"></span> <span class="menu-text">Panalty Income</span>
+                                            </a>
+                            </li>
+                                        <li class="menu-item">
+                                            <a asp-action="AppSetting" class="menu-link">
+                                                <span class="menu-icon fas fa-cogs"></span>
+                                                <span class="menu-text">App Setting</span>
+                                            </a>
+                                        </li>
+
+                                        <li class="menu-item">
+                                            <a asp-action="Slider" class="menu-link">
+                                                <span class="menu-icon fas fa-sliders"></span>
+                                                <span class="menu-text">Slider</span>
+                                            </a>
+                                        </li>
+                               <li class="menu-item">
+                                    <a asp-action="ContactUs" class="menu-link">
+                                        <span class="menu-icon fas fa-phone-alt"></span>
+                                        <span class="menu-text">Contact Us</span>
+                                    </a>
+                                </li>  
+                                <li class="menu-item">
+                                            <a asp-action="Withdraw" class="menu-link">
+                                                <span class="menu-icon fas fa-hand-holding-usd"></span>
+                                        <span class="menu-text">Withdraw</span>
+                                    </a>
+                                </li>       
+                                <li class="menu-item">
+                                            <a asp-action="Deposit" class="menu-link">
+                                                <span class="menu-icon fas fa-money-bill-transfer"></span>
+                                        <span class="menu-text">Deposit</span>
+                                    </a>
+                                </li>
+                                        <li class="menu-item">
+                                            <a asp-action="PaymentHistory" class="menu-link">
+                                                <span class="menu-icon time-icon fas fa-clock" title="Time"></span>   
+                                                <span class="menu-text">Payment History</span>
+                                            </a>
+                                        </li>
+
+                                        <li class="menu-item">
+                                            <a asp-action="GameDetail" class="menu-link">
+                                                <span class="menu-icon fas fa-file-alt" title="Details"></span>
+                                                <span class="menu-text">Game Details</span>
+                                            </a>
+                                        </li>
+
+                                    </ul><!-- /.menu -->
+            </nav><!-- /.stacked-menu -->
+          </div><!-- /.aside-menu -->
+          <!-- Skin changer -->
+          <footer class="aside-footer border-top p-2">
+            <button class="btn btn-light btn-block text-primary" data-toggle="skin"><span class="d-compact-menu-none">Night mode</span> <i class="fas fa-moon ml-1"></i></button>
+          </footer><!-- /Skin changer -->
+        </div><!-- /.aside-content -->
+      </aside><!-- /.app-aside -->
+      </div>
+      <div class="col-sm-10">
+      <!-- .app-main -->
+      <main class="app-main">
+        <!-- .wrapper -->
+        <div class="wrapper">
+          <!-- .page -->
+          <div class="page">
+            <!-- .page-inner -->
+            <div class="page-inner">
+              <!-- .page-title-bar -->
+              <!-- .page-section -->
+              <div class="page-section">
+                <!-- .section-block -->
+                <div class="section-block container">
+                  <!-- page content goes here -->
+                     <div class="row">
+                         <div class="col-sm-12">
+                                                    @RenderBody()
+                         </div>
+                     </div>
+                </div><!-- /.section-block -->
+              </div><!-- /.page-section -->
+            </div><!-- /.page-inner -->
+          </div><!-- /.page -->
+        </div><!-- /.wrapper -->
+      </main><!-- /.app-main -->
+    </div><!-- /.app -->
+   </div>
+  </div>
+ </div>
+    <!-- BEGIN BASE JS -->
+    <script src="~/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="~/assets/vendor/popper.js/umd/popper.min.js"></script>
+    <script src="~/assets/vendor/bootstrap/js/bootstrap.min.js"></script> <!-- END BASE JS -->
+    <!-- BEGIN PLUGINS JS -->
+    <script src="~/assets/vendor/pace-progress/pace.min.js"></script>
+    <script src="~/assets/vendor/stacked-menu/js/stacked-menu.min.js"></script>
+    <script src="~/assets/vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script> <!-- END PLUGINS JS -->
+    <!-- BEGIN THEME JS -->
+    <script src="~/assets/javascript/theme.min.js"></script> <!-- END THEME JS -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="~/gtag/js?id=UA-116692175-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag()
+      {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'UA-116692175-1');
+    </script>
+  </body>
+</html>
